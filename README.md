@@ -1,11 +1,30 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# 🌿 Sentence Safari
 
-  <h1>Built with AI Studio</h2>
+A high-fidelity, gamified English grammar learning application built with React, Tailwind CSS, and a premium jungle aesthetic.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🚀 Deployment to Vercel
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1.  **Push to GitHub**: Initialize a git repository and push these files to a new GitHub repository.
+2.  **Connect to Vercel**:
+    *   Go to [Vercel](https://vercel.com) and click **"Add New"** > **"Project"**.
+    *   Import your GitHub repository.
+    *   Vercel will automatically detect the **Vite** configuration.
+    *   Click **"Deploy"**.
 
-</div>
+## 🛠️ Project Structure
+
+*   `/components`: Reusable UI components (Mascot, QuizBoard, etc.)
+*   `/context`: Global game state management.
+*   `/data`: Curriculum content divided into biomes (levels 1-30).
+*   `/types.ts`: TypeScript interfaces for the application.
+
+## 🍃 Features
+
+*   **30 Levels**: Progressively difficult grammar challenges.
+*   **Dynamic Mascot**: Kojo the monkey reacts to your performance.
+*   **Currency System**: Earn bananas to spend on hints and reveals.
+*   **Responsive Design**: Optimized for mobile, tablet, and desktop.
+*   **Flexible Syntax**: Supports multiple correct orderings for complex sentences.
+
+Created by Shalaka Kashikar
